@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Exchange</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <img src="app-icon.svg" alt="" class="app-icon" />
+      <h1>Currency Converter</h1>
+      <label for="">Amount: </label>
+      <input type="number" id="amount" name="amount" />
+      <div id="currency-selections">
+        <select name="" id="from-currency-select">
+          USD
+        </select>
+        <select name="" id="to-currency-select">
+          INR
+        </select>
+      </div>
+      <button id="convert">Convert</button>
+      <p id="result">100USD = 8236INR</p>
+    </div>
+    <script src="currency-codes.js"></script>
+    <script src="api-key.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
